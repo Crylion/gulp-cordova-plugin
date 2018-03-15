@@ -32,6 +32,7 @@ const add = (plugin, opts) => {
 	}
 
 	delete opts.version;
+	opts.fetch = true;
 
 	gutil.log('\tadd ' + plugin);
 
